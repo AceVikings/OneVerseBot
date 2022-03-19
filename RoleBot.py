@@ -124,9 +124,7 @@ async def refresh(ctx):
 
     print("Starting refresh")
     status = await ctx.send("Starting refresh")
-    print(ctx.message.author)
     members = server.members
-    print("Here")
 
     for member in members:
         if not member.guild_permissions.administrator and not member.bot:
@@ -167,4 +165,4 @@ async def refresh(ctx):
     refreshOn = False
 
 
-client.run("OTU0MjUzMjUwNzQ2NTQ0MTI4.YjQbmA.1fI8uU_uqjng6dMUQ6So8ks1ang")
+client.run("Token")
